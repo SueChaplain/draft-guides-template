@@ -97,4 +97,5 @@ Once you have your local development environment setup you can render guides as 
 1. Inside the new `guides` dir, make a new folder called `guide-name_of_your_guide`
 1. Create the `README.adoc` in that newly created folder and place your content in there.
 1. Copy any images that you are using in your guide to the `src/main/content/img/guide` directory.
+   * Note- this is done automatically during website build, but is needed during local development.
 1. Start your local dev server and go to `https://localhost:4000/guides` to see all the guides rendered.
